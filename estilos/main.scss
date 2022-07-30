@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://assets.pokemon.com//assets/cms2-es-es/img/misc/virtual-backgrounds/sword-shield/pokemon-in-the-wild.png');
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+.logo{
+    width: 400px;
+}
+
+.main{
+    display: flex;
+    align-items: center; 
+    justify-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    background: rgba(255, 255, 255, 0.5);
+    height: 665px;/*Antes 710px*/
+    width: 2160px;
+    max-height: 200ch;
+    max-width: 200ch;
+    padding: 20px 30px 0px 30px;
+    border-radius: 6px;
+    margin: 0 300px;
+}
+
+.main::-webkit-scrollbar{
+    width: 0;
+}
+
+.backgroundNd{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.5);
+}
+/* Descripción */
+.pNd{
+    text-align: justify;
+    font-size: 20px;
+}
+
+/* Audio */
+.audio{
+    height: 21px;
+    margin-bottom: 7px;
+}
+
+@import "./block/flipFlopCard";
